@@ -3,46 +3,91 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Normolize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Raleway:wght@400;500;600&family=Roboto:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Vyshyvanka Vibes</title>
   </head>
   <body>
-    <header>
-      <a href="./index.html">
-        <img src="./images/logo.png" alt="vyshyvanka logo" width="44" />
-      </a>
-      <nav>
-        <ul>
-          <li><a href="#about-us">About us</a></li>
-          <li><a href="#collection">Our Collection</a></li>
-          <li><a href="#order">Customer Order</a></li>
-          <li><a href="#testimonial">Testimonials</a></li>
-        </ul>
-      </nav>
-      <address>
-        <a href="tel:+380684439426">+380 (68) 443-94-26</a>
-      </address>
-      <ul>
-        <li><a href="#" target="_blank">Facebook</a></li>
-        <li><a href="#" target="_blank">Instagram</a></li>
-        <li><a href="#" target="_blank">YouTube</a></li>
-      </ul>
+    <!-- Header -->
+    <header class="header-section">
+      <div class="container header-container">
+        <nav class="header-nav">
+          <a href="./index.html">
+            <img src="./images/logo.png" alt="vyshyvanka logo" width="44" />
+          </a>
+          <ul class="header-nav-list">
+            <li class="header-nav-list-item">
+              <a href="#about-us">About us</a>
+            </li>
+            <li class="header-nav-list-item">
+              <a href="#collection">Our Collection</a>
+            </li>
+            <li class="header-nav-list-item">
+              <a href="#order">Customer Order</a>
+            </li>
+            <li class="header-nav-list-item">
+              <a href="#testimonial">Testimonials</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header-addr-soc-container">
+          <address class="header-addr-tel">
+            <a href="tel:+380684439426">+380 (68) 443-94-26</a>
+          </address>
+          <ul class="header-soc-list">
+            <li class="header-soc-list-item">
+              <a href="#" target="_blank">Facebook</a>
+            </li>
+            <li class="header-soc-list-item">
+              <a href="#" target="_blank">Instagram</a>
+            </li>
+            <li class="header-soc-list-item">
+              <a href="#" target="_blank">YouTube</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </header>
     <main>
       <!--Hero section-->
-      <section>
-        <img
-          src="./images/girl.jpg"
-          alt="Girl sitting in an vyshyvanka"
-          width="392"
-        />
-        <h1>Reviving the traditional Ukrainian artistry in every stitch.</h1>
-        <a href="#order"
-          >Order
-          <img src="./images/arrow.jpg" alt="Arrow" width="26" />
-        </a>
-        <div>
-          <img src="./images/Star_10.jpg" alt="Star" width="52" />
-          <p>all embroidery is made by hand</p>
+      <section class="hero-section">
+        <div class="container hero-container">
+          <div class="hero-card-thumb">
+            <img
+              src="./images/girl.jpg"
+              alt="Girl sitting in an vyshyvanka"
+              width="392"
+            />
+          </div>
+          <div class="hero-btn-contaner">
+            <h1 class="hero-title">
+              Reviving the traditional
+              <span class="accent">Ukrainian</span> artistry in every stitch.
+            </h1>
+            <div class="hero-btn">
+              <a href="#order" class="hero-link-btn">Order </a>
+              <img src="./images/arrow.jpg" alt="Arrow" width="26" />
+            </div>
+          </div>
+          <div class="hero-star">
+            <img src="./images/Star_10.jpg" alt="Star" width="52" />
+            <p class="hero-star-descr">all embroidery is made by hand</p>
+          </div>
         </div>
       </section>
 
