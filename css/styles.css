@@ -371,3 +371,44 @@ address {
 }
 
 /* Testimonials */
+
+.testimonial-section {
+  padding-block: 75px;
+}
+.testimonial-title {
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 1.45455;
+  letter-spacing: -0.03em;
+  color: #fcf9f9;
+  margin-bottom: 40px;
+}
+.testimonial-list {
+  display: flex;
+  gap: 26px;
+}
+.testimonial-item {
+  flex-basis: calc((100% - 2 * 26px) / 3);
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  border-radius: 4px;
+  padding: 0px 18px 18px;
+}
+.testimonial-card {
+  box-shadow: 0 1px 4px 0 rgba(16, 24, 40, 0.06);
+  margin: 0 auto 14px;
+}
+
+.testimonial-item-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+  color: #fcf9f9;
+  margin-bottom: 8px;
+}
+.testimonial-item-descr {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: rgba(252, 249, 249, 0.4);
+}
