@@ -46,6 +46,11 @@ button {
   /* display: block; */
   cursor: pointer;
   font-family: inherit;
+  background: none;
+}
+input {
+  font-family: inherit;
+  background-color: inherit;
 }
 address {
   font-style: normal;
@@ -169,7 +174,6 @@ address {
 }
 
 .hero-btn {
-  display: block;
   font-weight: 600;
   font-size: 16px;
   letter-spacing: -0.04em;
@@ -298,3 +302,72 @@ address {
 }
 
 /* FORM */
+
+.form-section {
+  padding-block: 75px;
+}
+.form-container {
+  display: flex;
+  gap: 50px;
+}
+.form-title {
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 1.31818;
+  letter-spacing: -0.03em;
+  color: #fcf9f9;
+  margin-bottom: 40px;
+}
+.form-input-text {
+  display: block;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  border-radius: 15px;
+  padding: 14px 16px;
+  color: #fcf9f9;
+  margin-bottom: 20px;
+  width: 508px;
+}
+.form-input-comment {
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  border-radius: 8px;
+  padding: 14px 16px;
+  width: 508px;
+  height: 196px;
+  overflow: auto;
+  color: #fcf9f9;
+  margin-bottom: 40px;
+}
+.form-input-text:hover,
+.form-input-text:focus,
+.form-input-comment:hover,
+.form-input-comment:focus {
+  border: 1px solid #ecd979;
+}
+
+.form-btn {
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #fcf9f9;
+  padding: 14px 39px;
+
+  display: flex;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  border-radius: 15px;
+  justify-content: center;
+  gap: 10px;
+  max-width: 168px;
+}
+
+.form-btn:hover,
+.form-btn:focus {
+  border: 1px solid #ecd979;
+}
+.form-card {
+  border-radius: 4px;
+  align-self: flex-start;
+  object-fit: cover;
+}
+
+/* Testimonials */
