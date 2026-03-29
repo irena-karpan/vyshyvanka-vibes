@@ -60,7 +60,7 @@ address {
   max-width: 1280px;
   padding-inline: 50px;
   margin: 0 auto;
-  outline: 2px dotted red;
+  /* outline: 2px dotted red; */
 }
 .visually-hidden {
   position: absolute;
@@ -373,7 +373,7 @@ address {
 /* Testimonials */
 
 .testimonial-section {
-  padding-block: 75px;
+  padding-block: 150px;
 }
 .testimonial-title {
   font-weight: 500;
@@ -411,4 +411,40 @@ address {
   font-size: 16px;
   text-align: center;
   color: rgba(252, 249, 249, 0.4);
+}
+
+/* Footer */
+
+.footer-section {
+  border-top: 1px solid rgba(252, 249, 249, 0.1);
+}
+.footer-nav {
+}
+.footer-nav-list {
+  margin-top: 40px;
+  margin-bottom: 117px;
+  display: flex;
+  gap: 25px;
+}
+.footer-nav-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  text-transform: uppercase;
+  color: #fcf9f9;
+}
+
+.footer-nav-link:hover,
+.footer-nav-link:focus {
+  color: #ecd979;
+}
+
+.footer-descr {
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 1.15625;
+  letter-spacing: -0.03em;
+  color: #fcf9f9;
+  max-width: 754px;
+  margin-bottom: 40px;
 }
