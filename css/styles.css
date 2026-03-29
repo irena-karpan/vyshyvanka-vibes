@@ -207,3 +207,94 @@ address {
   display: flex;
 }
 /* ABOUT US */
+
+.about-section {
+  padding-block: 75px;
+}
+.about-container {
+  display: flex;
+  gap: 50px;
+}
+.about-text-container {
+  align-self: center;
+  max-width: 536px;
+}
+.about-title {
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 1.45;
+  letter-spacing: -0.03em;
+  color: #fcf9f9;
+  margin-bottom: 40px;
+}
+.about-descr {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: -0.04em;
+  color: rgba(252, 249, 249, 0.4);
+}
+.about-descr:nth-child(2n) {
+  margin-bottom: 20px;
+}
+.about-card {
+  border-radius: 4px;
+}
+
+/* OUR COLLECTION */
+
+.collection-section {
+  padding-block: 75px;
+}
+.collection-title {
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 1.45;
+  letter-spacing: -0.03em;
+  color: #fcf9f9;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.collection-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  row-gap: 40px;
+}
+.collection-list-item {
+  flex-basis: calc((100% - 2 * 20px) / 3);
+}
+.collection-card {
+  border-radius: 4px;
+  margin-bottom: 18px;
+}
+.collection-card-title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #fcf9f9;
+  margin-bottom: 8px;
+}
+.collection-card-descr {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: 0.05em;
+  color: rgba(252, 249, 249, 0.4);
+}
+
+/* PROMOPHOTO */
+
+.promo-section {
+  padding-block: 75px;
+}
+.promo-card {
+  min-height: 776px;
+  object-fit: cover;
+}
+.promo-container {
+  padding: 0;
+}
+
+/* FORM */
